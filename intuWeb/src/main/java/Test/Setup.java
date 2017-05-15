@@ -32,8 +32,8 @@ public class Setup {
 		desktopBrowser = new DesktopBrowser(driver);
 		mobileBrowser = new MobileBrowser(driver);
 		
-		desktopBrowser.startBrowser();
-		//mobileBrowser.startBrowser();
+		//desktopBrowser.startBrowser();
+		mobileBrowser.startBrowser();
 	}
 
 	@AfterMethod
